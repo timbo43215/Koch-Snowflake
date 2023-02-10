@@ -1,0 +1,573 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AB386FAC2996F47E00795D6E /* Koch_SnowflakeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB386FAB2996F47E00795D6E /* Koch_SnowflakeApp.swift */; };
+		AB386FAE2996F47E00795D6E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB386FAD2996F47E00795D6E /* ContentView.swift */; };
+		AB386FB02996F47E00795D6E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB386FAF2996F47E00795D6E /* Assets.xcassets */; };
+		AB386FB32996F47E00795D6E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB386FB22996F47E00795D6E /* Preview Assets.xcassets */; };
+		AB386FBE2996F47F00795D6E /* Koch_SnowflakeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB386FBD2996F47F00795D6E /* Koch_SnowflakeTests.swift */; };
+		AB386FC82996F47F00795D6E /* Koch_SnowflakeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB386FC72996F47F00795D6E /* Koch_SnowflakeUITests.swift */; };
+		AB386FCA2996F47F00795D6E /* Koch_SnowflakeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB386FC92996F47F00795D6E /* Koch_SnowflakeUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AB386FBA2996F47F00795D6E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AB386FA02996F47E00795D6E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AB386FA72996F47E00795D6E;
+			remoteInfo = "Koch Snowflake";
+		};
+		AB386FC42996F47F00795D6E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AB386FA02996F47E00795D6E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AB386FA72996F47E00795D6E;
+			remoteInfo = "Koch Snowflake";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AB386FA82996F47E00795D6E /* Koch Snowflake.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Koch Snowflake.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB386FAB2996F47E00795D6E /* Koch_SnowflakeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Koch_SnowflakeApp.swift; sourceTree = "<group>"; };
+		AB386FAD2996F47E00795D6E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		AB386FAF2996F47E00795D6E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AB386FB22996F47E00795D6E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AB386FB42996F47E00795D6E /* Koch_Snowflake.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Koch_Snowflake.entitlements; sourceTree = "<group>"; };
+		AB386FB92996F47F00795D6E /* Koch SnowflakeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Koch SnowflakeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB386FBD2996F47F00795D6E /* Koch_SnowflakeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Koch_SnowflakeTests.swift; sourceTree = "<group>"; };
+		AB386FC32996F47F00795D6E /* Koch SnowflakeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Koch SnowflakeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB386FC72996F47F00795D6E /* Koch_SnowflakeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Koch_SnowflakeUITests.swift; sourceTree = "<group>"; };
+		AB386FC92996F47F00795D6E /* Koch_SnowflakeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Koch_SnowflakeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AB386FA52996F47E00795D6E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB386FB62996F47F00795D6E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB386FC02996F47F00795D6E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AB386F9F2996F47E00795D6E = {
+			isa = PBXGroup;
+			children = (
+				AB386FAA2996F47E00795D6E /* Koch Snowflake */,
+				AB386FBC2996F47F00795D6E /* Koch SnowflakeTests */,
+				AB386FC62996F47F00795D6E /* Koch SnowflakeUITests */,
+				AB386FA92996F47E00795D6E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AB386FA92996F47E00795D6E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AB386FA82996F47E00795D6E /* Koch Snowflake.app */,
+				AB386FB92996F47F00795D6E /* Koch SnowflakeTests.xctest */,
+				AB386FC32996F47F00795D6E /* Koch SnowflakeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AB386FAA2996F47E00795D6E /* Koch Snowflake */ = {
+			isa = PBXGroup;
+			children = (
+				AB386FAB2996F47E00795D6E /* Koch_SnowflakeApp.swift */,
+				AB386FAD2996F47E00795D6E /* ContentView.swift */,
+				AB386FAF2996F47E00795D6E /* Assets.xcassets */,
+				AB386FB42996F47E00795D6E /* Koch_Snowflake.entitlements */,
+				AB386FB12996F47E00795D6E /* Preview Content */,
+			);
+			path = "Koch Snowflake";
+			sourceTree = "<group>";
+		};
+		AB386FB12996F47E00795D6E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				AB386FB22996F47E00795D6E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		AB386FBC2996F47F00795D6E /* Koch SnowflakeTests */ = {
+			isa = PBXGroup;
+			children = (
+				AB386FBD2996F47F00795D6E /* Koch_SnowflakeTests.swift */,
+			);
+			path = "Koch SnowflakeTests";
+			sourceTree = "<group>";
+		};
+		AB386FC62996F47F00795D6E /* Koch SnowflakeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AB386FC72996F47F00795D6E /* Koch_SnowflakeUITests.swift */,
+				AB386FC92996F47F00795D6E /* Koch_SnowflakeUITestsLaunchTests.swift */,
+			);
+			path = "Koch SnowflakeUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AB386FA72996F47E00795D6E /* Koch Snowflake */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB386FCD2996F47F00795D6E /* Build configuration list for PBXNativeTarget "Koch Snowflake" */;
+			buildPhases = (
+				AB386FA42996F47E00795D6E /* Sources */,
+				AB386FA52996F47E00795D6E /* Frameworks */,
+				AB386FA62996F47E00795D6E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Koch Snowflake";
+			productName = "Koch Snowflake";
+			productReference = AB386FA82996F47E00795D6E /* Koch Snowflake.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AB386FB82996F47F00795D6E /* Koch SnowflakeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB386FD02996F47F00795D6E /* Build configuration list for PBXNativeTarget "Koch SnowflakeTests" */;
+			buildPhases = (
+				AB386FB52996F47F00795D6E /* Sources */,
+				AB386FB62996F47F00795D6E /* Frameworks */,
+				AB386FB72996F47F00795D6E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AB386FBB2996F47F00795D6E /* PBXTargetDependency */,
+			);
+			name = "Koch SnowflakeTests";
+			productName = "Koch SnowflakeTests";
+			productReference = AB386FB92996F47F00795D6E /* Koch SnowflakeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AB386FC22996F47F00795D6E /* Koch SnowflakeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB386FD32996F47F00795D6E /* Build configuration list for PBXNativeTarget "Koch SnowflakeUITests" */;
+			buildPhases = (
+				AB386FBF2996F47F00795D6E /* Sources */,
+				AB386FC02996F47F00795D6E /* Frameworks */,
+				AB386FC12996F47F00795D6E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AB386FC52996F47F00795D6E /* PBXTargetDependency */,
+			);
+			name = "Koch SnowflakeUITests";
+			productName = "Koch SnowflakeUITests";
+			productReference = AB386FC32996F47F00795D6E /* Koch SnowflakeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AB386FA02996F47E00795D6E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					AB386FA72996F47E00795D6E = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					AB386FB82996F47F00795D6E = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = AB386FA72996F47E00795D6E;
+					};
+					AB386FC22996F47F00795D6E = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = AB386FA72996F47E00795D6E;
+					};
+				};
+			};
+			buildConfigurationList = AB386FA32996F47E00795D6E /* Build configuration list for PBXProject "Koch Snowflake" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AB386F9F2996F47E00795D6E;
+			productRefGroup = AB386FA92996F47E00795D6E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AB386FA72996F47E00795D6E /* Koch Snowflake */,
+				AB386FB82996F47F00795D6E /* Koch SnowflakeTests */,
+				AB386FC22996F47F00795D6E /* Koch SnowflakeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AB386FA62996F47E00795D6E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB386FB32996F47E00795D6E /* Preview Assets.xcassets in Resources */,
+				AB386FB02996F47E00795D6E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB386FB72996F47F00795D6E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB386FC12996F47F00795D6E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AB386FA42996F47E00795D6E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB386FAE2996F47E00795D6E /* ContentView.swift in Sources */,
+				AB386FAC2996F47E00795D6E /* Koch_SnowflakeApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB386FB52996F47F00795D6E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB386FBE2996F47F00795D6E /* Koch_SnowflakeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB386FBF2996F47F00795D6E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB386FCA2996F47F00795D6E /* Koch_SnowflakeUITestsLaunchTests.swift in Sources */,
+				AB386FC82996F47F00795D6E /* Koch_SnowflakeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AB386FBB2996F47F00795D6E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AB386FA72996F47E00795D6E /* Koch Snowflake */;
+			targetProxy = AB386FBA2996F47F00795D6E /* PBXContainerItemProxy */;
+		};
+		AB386FC52996F47F00795D6E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AB386FA72996F47E00795D6E /* Koch Snowflake */;
+			targetProxy = AB386FC42996F47F00795D6E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		AB386FCB2996F47F00795D6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AB386FCC2996F47F00795D6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		AB386FCE2996F47F00795D6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Koch Snowflake/Koch_Snowflake.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Koch Snowflake/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.TS.Koch-Snowflake";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		AB386FCF2996F47F00795D6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Koch Snowflake/Koch_Snowflake.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Koch Snowflake/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.TS.Koch-Snowflake";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		AB386FD12996F47F00795D6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.TS.Koch-SnowflakeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Koch Snowflake.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Koch Snowflake";
+			};
+			name = Debug;
+		};
+		AB386FD22996F47F00795D6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.TS.Koch-SnowflakeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Koch Snowflake.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Koch Snowflake";
+			};
+			name = Release;
+		};
+		AB386FD42996F47F00795D6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.TS.Koch-SnowflakeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "Koch Snowflake";
+			};
+			name = Debug;
+		};
+		AB386FD52996F47F00795D6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.TS.Koch-SnowflakeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "Koch Snowflake";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AB386FA32996F47E00795D6E /* Build configuration list for PBXProject "Koch Snowflake" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB386FCB2996F47F00795D6E /* Debug */,
+				AB386FCC2996F47F00795D6E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB386FCD2996F47F00795D6E /* Build configuration list for PBXNativeTarget "Koch Snowflake" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB386FCE2996F47F00795D6E /* Debug */,
+				AB386FCF2996F47F00795D6E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB386FD02996F47F00795D6E /* Build configuration list for PBXNativeTarget "Koch SnowflakeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB386FD12996F47F00795D6E /* Debug */,
+				AB386FD22996F47F00795D6E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB386FD32996F47F00795D6E /* Build configuration list for PBXNativeTarget "Koch SnowflakeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB386FD42996F47F00795D6E /* Debug */,
+				AB386FD52996F47F00795D6E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AB386FA02996F47E00795D6E /* Project object */;
+}
