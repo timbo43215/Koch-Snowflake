@@ -11,7 +11,7 @@ import SwiftUI
 struct Koch_SnowflakeApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            KochSnowflakeView(depth: 100, size: 200)
         }
     }
 }
